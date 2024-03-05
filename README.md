@@ -1,0 +1,1 @@
+This repository serves as a comprehensive learning resource for mastering Ruby on Rails. It contains topic-wise files with .rd extensions under the "Ruby & Rails" folder, helping you delve into different aspects of Ruby on Rails development.
