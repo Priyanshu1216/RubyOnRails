@@ -99,31 +99,32 @@ puts my_method  # Output: This will be reached
 
 
 
+# Comment the paragraph below when you want to run the examples above
 
-# Difference
+Difference
 
-# lambda are very strict with number of arguments, while procs are not.
-# return method behaves normally in lambda (just like normal function) and return from lambda while in proc return method returns for the enclosing method
-# the main difference between return in procs and lambdas is that in procs, it returns from the enclosing method, while in lambdas, it returns only from the lambda itself.
-
-
-# when to use any of them
-
-# Blocks:
-
-# Use blocks when you need to pass a chunk of code as an argument to a method.
-# Blocks are commonly used with iterator methods like each, map, select, etc., to perform operations on collections.
-
-# Procs:
-
-# Use procs when you need to reuse a block of code in multiple places within your program.
-# Procs are useful when you want to store a block of code in a variable and pass it around as an object.
-# They are also suitable for implementing custom control flow mechanisms or callbacks.
+lambda are very strict with number of arguments, while procs are not.
+return method behaves normally in lambda (just like normal function) and return from lambda while in proc return method returns from the enclosing method
+the main difference between return in procs and lambdas is that in procs, it returns from the enclosing method, while in lambdas, it returns only from the lambda itself.
 
 
-# Lambdas:
+when to use any of them
 
-# Use lambdas when you need strict argument checking and cleaner return behavior compared to procs.
-# Lambdas are suitable for scenarios where you want the return statement to affect only the block of code inside the lambda, without affecting the enclosing method.
-# They are useful in situations where you want to define a small, self-contained piece of functionality that behaves like a regular method.
-# Lambdas are commonly used in functional programming paradigms for tasks like filtering, mapping, or reducing data.
+Blocks:
+
+Use blocks when you need to pass a chunk of code as an argument to a method.
+Blocks are commonly used with iterator methods like each, map, select, etc., to perform operations on collections.
+
+Procs:
+
+Use procs when you need to reuse a block of code in multiple places within your program.
+Procs are useful when you want to store a block of code in a variable and pass it around as an object.
+They are also suitable for implementing custom control flow mechanisms or callbacks.
+
+
+Lambdas:
+
+Use lambdas when you need strict argument checking and cleaner return behavior compared to procs.
+Lambdas are suitable for scenarios where you want the return statement to affect only the block of code inside the lambda, without affecting the enclosing method.
+They are useful in situations where you want to define a small, self-contained piece of functionality that behaves like a regular method.
+Lambdas are commonly used in functional programming paradigms for tasks like filtering, mapping, or reducing data.
