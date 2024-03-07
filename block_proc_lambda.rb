@@ -63,7 +63,7 @@ lamb = lambda { |n| puts n + 1 }
 
 # or
 
-lamb1 = -> (n) { puts n + 1 }\
+lamb1 = -> (n) { puts n + 1 }
 
 lamb.call(2)
 #lamb.call(2,3) # will raise exception  wrong number of arguments
