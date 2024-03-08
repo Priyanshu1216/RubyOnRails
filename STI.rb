@@ -1,6 +1,6 @@
 # STI :- Single table inheritance
 
-In Ruby in Rails, STI is used to implement relationships between classes and database using single database table.
+In Ruby on Rails, STI is used to implement relationships between classes and database using single database table.
 
 In Simplest term, STI allows multiple classes to share same database table, where each row represents an instance of one of these classes.
 This means that data of all the subclasses are stored in a single table, and type column is used to differentiate between different types of objects.
