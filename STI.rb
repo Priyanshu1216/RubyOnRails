@@ -31,3 +31,5 @@ Each subclass (Car and Bike) inherits attributes and methods from the parent cla
 In the database table vehicles, there is a column called type, which stores the class name of each object (e.g., "Car" or "Bike").
 
 When an object of type Car or Bike is saved to the database, it is stored in the vehicles table, and the value of the type column indicates its specific type(class).
+
+Each of these subclasses has its own unique attributes, but they also share some common attributes, such as colore, model, and year.
