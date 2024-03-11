@@ -104,7 +104,7 @@ puts my_method  # Output: This will be reached
 Difference
 
 lambda are very strict with number of arguments, while procs are not.
-return method behaves normally in lambda (just like normal function) and return from lambda while in proc return method returns from the enclosing method
+return method behaves normally in lambda (just like normal function) and return from lambda itself while in proc, return method returns from the enclosing method
 the main difference between return in procs and lambdas is that in procs, it returns from the enclosing method, while in lambdas, it returns only from the lambda itself.
 
 
