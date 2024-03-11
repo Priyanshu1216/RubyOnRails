@@ -1,6 +1,6 @@
 # Rake (Ruby + Make)
 
-It is a task runner o build tool, similar to Make in Unix environment.
+It is a task runner or build tool, similar to Make in Unix environment.
 It is used in Ruby on Rails for automating tasks such as running tests, migrating databases and managing assets.
 
 Rake tasks are defined in files with .rake extension placed in  lib/tasks directory.
