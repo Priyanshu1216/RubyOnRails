@@ -23,7 +23,6 @@ class Bike < Vehicle
 end
 
 
-
 Vehicle is the parent class, and Car and Bike are its subclasses.
 
 Each subclass (Car and Bike) inherits attributes and methods from the parent class (Vehicle).
