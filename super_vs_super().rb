@@ -12,4 +12,3 @@ super vs super()
 
 - super() with parenthesis calls the parent method with no arguments.
 - This means if parent method is expecting any arguments, you must provide them explicitly.
-
