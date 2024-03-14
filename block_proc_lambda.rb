@@ -28,7 +28,6 @@ invoking_block { puts "Block invoked" }
 
 
 
-
 # Passing parameters to a block
 
 def my_block
@@ -99,7 +98,7 @@ puts my_method  # Output: This will be reached
 
 
 
-# Comment the paragraph below when you want to run the examples above
+# Comment the paragraph below when you want to run the examples above -
 
 Difference
 
