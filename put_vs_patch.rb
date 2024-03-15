@@ -12,4 +12,4 @@ this means you only need to send the data that needs to be updated rather than e
 
 
 In Summary, PUT method is used to update an entire resource and hence we should pass it the entire resoure while PATCH method is used
-to update only a part of resource and hence we should pass it the part of reopurce that needs to be updated.
+to update only a part of resource and hence we should pass it the part of resource that needs to be updated.
