@@ -48,6 +48,3 @@ rake test
 
 And this will execute the code inside the test task and print "Running automated tests...".
 
-
-
-
