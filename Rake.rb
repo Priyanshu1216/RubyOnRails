@@ -20,7 +20,7 @@ When you tell Rake to run a task, it reads the list and does the things you aske
 Thats it, Rake helps you save time by doing repetitive tasks for you, like testing your code or updating your database.
 
 
-i.e.
+Example-
 
 
 1. First, you create a new file called tasks.rake in the lib/tasks directory of your Rails project.
