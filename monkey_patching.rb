@@ -27,8 +27,6 @@ end
 now when we do "Hello".reverse the Output will be "HELLO".
 
 
-
-
 2.
 
 We can also change the behavior of a class by making decorator of that class.
