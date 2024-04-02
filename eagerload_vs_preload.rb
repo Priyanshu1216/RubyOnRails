@@ -4,14 +4,18 @@ made during the retrieval of associated records. However, they operate slightly 
 Eager Loading:
 
 Eager loading refers to the practice of loading associated records along with the main record in a single query. 
-It is achieved using the includes method in ActiveRecord queries. When you eager load associations, ActiveRecord generates a single SQL query that fetches both the main record and its associated records in one go, reducing the number of database queries required.
+It is achieved using the includes method in ActiveRecord queries.
+When we eager load associations, ActiveRecord generates a single SQL query that fetches both the main record and its associated records in one go, reducing the number of database queries required.
 
-Example:
 
-Copy code
-# Eager loading using includes
-@posts = Post.includes(:comments)
+
+Example :
+
+@posts = Post.includes(:comments)                 # Eager loading using includes
+
 In this example, @posts will contain a collection of Post objects, and each Post object will have its associated Comment objects loaded eagerly.
+
+
 
 Preloading:
 
