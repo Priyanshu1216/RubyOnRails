@@ -25,6 +25,7 @@ Preloading is useful when you need to access the associated records individually
 
 Example:
 
-# Preloading using preload
-@posts = Post.all.preload(:comments)
-In this example, @posts will contain a collection of Post objects, but the associated Comment objects won't be loaded immediately. However, when you access the comments association of each Post object, ActiveRecord will have already fetched all the associated Comment records in advance, reducing the need for additional queries.
+@posts = Post.all.preload(:comments)              # Preloading using preload
+
+In this example, @posts will contain a collection of Post objects, but the associated Comment objects won't be loaded immediately.
+However, when we access the comments association of each Post object, ActiveRecord will have already fetched all the associated Comment records in advance, reducing the need for additional queries.
