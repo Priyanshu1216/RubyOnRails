@@ -19,12 +19,12 @@ In this example, @posts will contain a collection of Post objects, and each Post
 
 Preloading:
 
-Preloading, on the other hand, is similar to eager loading but operates at a slightly lower level. It loads the associated records separately from the main query but does so more efficiently than lazy loading. Preloading is useful when you need to access the associated records individually but still want to minimize the number of database queries.
+Preloading, on the other hand, is similar to eager loading but operates at a slightly lower level. 
+It loads the associated records separately from the main query but does so more efficiently than lazy loading.
+Preloading is useful when you need to access the associated records individually but still want to minimize the number of database queries.
 
 Example:
 
-ruby
-Copy code
 # Preloading using preload
 @posts = Post.all.preload(:comments)
 In this example, @posts will contain a collection of Post objects, but the associated Comment objects won't be loaded immediately. However, when you access the comments association of each Post object, ActiveRecord will have already fetched all the associated Comment records in advance, reducing the need for additional queries.
