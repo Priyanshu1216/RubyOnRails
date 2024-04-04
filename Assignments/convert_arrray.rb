@@ -17,7 +17,7 @@ def convert_array(arr)
   newArr = []
   arr.each do |str|
     words = str.split(' ')
-    puts words
+    # puts words
     words.each do |word|
       newArr.push(word)
     end
