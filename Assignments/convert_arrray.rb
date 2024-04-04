@@ -5,10 +5,22 @@
 
 
 
+# def convert_array(arr)
+#   newArr = []
+#   arr.each  do |i|
+#     newArr.push(i.split())
+#   end 
+#   print newArr
+# end
+
 def convert_array(arr)
   newArr = []
-  arr.each  do |i|
-    newArr.push(i.split('').join(''))
+  arr.each do |str|
+    words = str.split(' ')
+    puts words
+    words.each do |word|
+      newArr.push(word)
+    end
   end 
   print newArr
 end
