@@ -68,3 +68,22 @@ In this example, when we fetch the @post object using Post.first, ActiveRecord e
 However, the associated comments are not fetched immediately. 
 Instead, when we later access the @post.comments association, ActiveRecord will execute another SQL query to fetch the comments related to that specific post. 
 This behavior is known as lazy loading because the associated records are loaded only when they are needed, not upfront.
+
+
+
+the main difference between eargerloading preloading and joins is that
+
+when we do
+
+articles = Article.includes(:comments)        # eargerloading
+articles.first.comments.loaded?               # true
+
+because in eager loading and preloading, associated records are fetched and saved into memory and that is why we get true on doing the loaded? thing(articles.first.comments.loaded?
+
+
+while if we use joins
+
+articles = Article.joins(:comments)
+articles.first.comments.loaded?               # false
+
+because although joins fetches the associated records fro database tables but it does not save it into memory hence we get false.
