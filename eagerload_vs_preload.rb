@@ -5,7 +5,8 @@ Eager Loading:
 
 Eager loading refers to the practice of loading associated records along with the main record in a single query. 
 It is achieved using the includes method in ActiveRecord queries.
-When we eager load associations, ActiveRecord generates a single SQL query that fetches both the main record and its associated records in one go, reducing the number of database queries required.
+When we eager load associations, ActiveRecord generates a single SQL query that fetches both the main record and its associated records in one go,
+reducing the number of database queries required.
 
 
 
