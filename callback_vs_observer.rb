@@ -46,3 +46,16 @@ class UserObserver < ActiveRecord::Observer
     user.name = user.name.downcase
   end
 end
+
+
+
+Drawbacks of Callbacks
+
+
+One potential drawback of using callbacks is that they can make your code harder to understand and maintain.
+If you have a lot of complex business logic that is spread out across multiple callbacks,
+It can be difficult to keep track of what is happening at each stage of the object's lifecycle.
+Additionally, callbacks can sometimes be triggered unexpectedly, leading to unexpected behavior or bugs.
+
+To mitigate these risks, it is important to use callbacks judiciously and to keep your callback logic simple and easy to understand.
+You should also write tests to ensure that your callbacks are behaving as expected and to catch any bugs that may arise
