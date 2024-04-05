@@ -86,4 +86,4 @@ while if we use joins
 articles = Article.joins(:comments)
 articles.first.comments.loaded?               # false
 
-because although joins fetches the associated records fro database tables but it does not save it into memory hence we get false.
+because although joins fetches the associated records from database tables but it does not save it into memory hence we get false.
