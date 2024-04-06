@@ -21,8 +21,6 @@ class User < ApplicationRecord
 end
 
 
-
-
 Rails Observers:
 
 Observers is same like Callback in rails, but it is used when method is not directly associated to object life cycle.
