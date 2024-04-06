@@ -46,4 +46,4 @@ Now, when you want to clean up temporary files, you simply run:
 rake clean
 rake test
 
-And this will execute the code inside the test task and print "Running automated tests...".
+And this will execute the code inside the test task and print "Running automated tests..."
