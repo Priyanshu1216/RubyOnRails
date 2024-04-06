@@ -23,7 +23,5 @@ class ApplicationController < ActionController::Base
 end
 
 
-
-
 While the most common way to use filters is by creating private methods and using before_action, after_action, or around_action to add them,
 there are two other ways to do the same thing.
