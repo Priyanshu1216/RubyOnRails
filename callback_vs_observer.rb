@@ -1,11 +1,15 @@
 Rails Callback:
 
 Callbacks are methods, which can be called at certain moments of an object’s life cycle.
-for example - it can be called when an object is created, updated, deleted.
+
+for example -
+
+it can be called when an object is created, updated, deleted.
 A call back is short lived.
 
-Types of Callbacks: 
-Rails provides various types of callbacks such as before_validation- 
+Types of Callbacks:
+
+Rails provides various types of callbacks such as before_validation,
 
 after_validation, before_save, after_save, before_create, after_create, before_update, after_update, before_destroy, after_destroy, etc.
 
