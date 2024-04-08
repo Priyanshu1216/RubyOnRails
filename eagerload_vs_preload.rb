@@ -1,5 +1,6 @@
 In Ruby on Rails and ActiveRecord, "eager loading" and "preloading" are both techniques used to optimize database queries by reducing the number of database calls 
-made during the retrieval of associated records. However, they operate slightly differently:
+made during the retrieval of associated records.
+However, they operate slightly differently:
 
 Eager Loading:
 
@@ -20,7 +21,7 @@ In this example, @posts will contain a collection of Post objects, and each Post
 
 Preloading:
 
-Preloading, on the other hand, is similar to eager loading but operates at a slightly lower level. 
+Preloading, on the other hand, is similar to eager loading but operates at a slightly lower level.
 It loads the associated records separately from the main query but does so more efficiently than lazy loading.
 Preloading is useful when you need to access the associated records individually but still want to minimize the number of database queries.
 
@@ -36,8 +37,8 @@ However, when we access the comments association of each Post object, ActiveReco
 
 Lazy loading:
 
-In Ruby on Rails and ActiveRecord, lazy loading refers to the practice of deferring the loading of associated records until they are actually accessed or needed. 
-Unlike eager loading, where associated records are fetched in advance along with the main record, lazy loading loads associated records only when they are explicitly requested. 
+In Ruby on Rails and ActiveRecord, lazy loading refers to the practice of deferring the loading of associated records until they are actually accessed or needed.
+Unlike eager loading, where associated records are fetched in advance along with the main record, lazy loading loads associated records only when they are explicitly requested.
 This helps to minimize unnecessary database queries and optimize performance.
 
 Here is a simple example to illustrate lazy loading:
