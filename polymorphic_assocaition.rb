@@ -15,7 +15,7 @@ rails g model PolyComment commentable:references {polymorhic}
 now---------------------------------------------------------------------------------------------------------------------------------------
 
 
-in models define association like this-
+in models, define association like this-
 
 class Post < ApplicationRecord
   has_many :poly_comments, as: :commentable
