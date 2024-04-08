@@ -8,7 +8,7 @@ Filters are inherited, so if you set a filter on ApplicationController, it will 
 "before" filters are registered via before_action. They may halt the request cycle.
 A common "before" filter is one which requires that a user is logged in for an action to be run.
 
-You can define the filter method this way:
+We can define the filter method this way:
 
 class ApplicationController < ActionController::Base
   before_action :require_login
