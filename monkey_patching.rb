@@ -31,7 +31,7 @@ now when we do "Hello".reverse the Output will be "HELLO".
 
 We can also change the behavior of a class by making decorator of that class.
 
-Decorator is the another way to implemet monkey patching.
+Decorator is the another way to implement monkey patching.
 
 When we use decorator, we just make the a new decorator file with the same name as class name and inside it we define our method.
 as per our requirement.
