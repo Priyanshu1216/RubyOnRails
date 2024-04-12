@@ -24,3 +24,13 @@ end
 puts get_value(h,'b')
 
 
+
+# 2. Add to this hash the key:value pair `{f:5}`
+
+def merge_hash(hash,new_hash)
+  return hash.merge(new_hash)
+end
+
+
+puts merge_hash(h,{f:6})
+
