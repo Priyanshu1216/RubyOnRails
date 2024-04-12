@@ -6,3 +6,21 @@
 
 
 
+h = {
+  a:1,
+  b:2,
+  c:3,
+  d:4,
+  e:5,
+}
+
+# 1.Get the value of key `:b`
+
+def get_value(hash,key)
+  key =  key.to_sym
+  return hash[key]
+end
+
+puts get_value(h,'b')
+
+
