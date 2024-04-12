@@ -34,3 +34,15 @@ end
 
 puts merge_hash(h,{f:6})
 
+
+
+# 3. Remove all key:value pairs whose value is less than 5.5
+
+def remove_pair(hash,value)
+  hash.reject do |key,value|
+    value < 5
+  end
+end
+
+puts remove_pair(h,5)
+puts h
