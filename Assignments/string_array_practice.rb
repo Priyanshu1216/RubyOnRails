@@ -15,7 +15,6 @@ def rearrange_array(arr, str)
   sorted_arr.map { |words| words.join(' ') }
 end
 
-
 arr = ["no bun", "bug bun bug bun bug bug", "bunny bug", "buggy bug bug buggy"]
 puts "Enter the string: "
 str = gets.chomp
