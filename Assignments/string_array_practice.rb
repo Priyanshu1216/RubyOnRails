@@ -19,5 +19,6 @@ arr = ["no bun", "bug bun bug bun bug bug", "bunny bug", "buggy bug bug buggy"]
 puts "Enter the string: "
 str = gets.chomp
 
+
 output_list = rearrange_array(arr, str)
 puts "OUTPUT LIST: #{output_list}"
