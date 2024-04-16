@@ -17,4 +17,21 @@ def find_duplicates(arr)
 end
 
 arr = [1,1,1,2,3,4,5,5,6,6]
+# puts arr.count(1)
 find_duplicates(arr)
+
+
+def find_duplicate(arr)
+  dup = []
+  # arr.each { |ele| dup.push(ele) if arr.count(ele) >1}
+  arr.each do |ele|
+    if dup.count(ele) >= 1
+      next
+    else
+      dup.push(ele) if arr.count(ele) > 1
+    end
+  end
+  dup
+end
+
+p find_duplicate(arr)
