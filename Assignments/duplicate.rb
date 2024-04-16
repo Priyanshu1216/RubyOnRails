@@ -16,7 +16,7 @@ def find_duplicates(arr)
   puts "Duplicate elements in array: #{duplicate}"
 end
 
-arr = [1,1,1,2,3,4,5,5,6,6]
+arr = [1,1,1,2,3,4,5,5,6,6,9,1,10,34,21,34,1,9]
 find_duplicates(arr)
 
 
