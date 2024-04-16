@@ -20,6 +20,8 @@ arr = [1,1,1,2,3,4,5,5,6,6]
 find_duplicates(arr)
 
 
+# Another method without tally method
+
 def find_duplicate(arr)
   dup = []
   arr.each do |ele|
