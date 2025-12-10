@@ -1,5 +1,4 @@
-In Ruby on Rails and ActiveRecord, "eager loading" and "preloading" are both techniques used to optimize database queries by reducing the number of database calls 
-made during the retrieval of associated records.
+In Ruby on Rails and ActiveRecord, "eager loading" and "preloading" are both techniques used to optimize database queries by reducing the number of database calls made during the retrieval of associated records.
 However, they operate slightly differently:
 
 Eager Loading:

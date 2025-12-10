@@ -112,7 +112,7 @@ when to use any of them-
 Blocks:
 
 Use blocks when you need to pass a chunk of code as an argument to a method.
-Blocks are commonly used with iterator methods like each, map, select, etc., to perform operations on collections.
+Blocks are commonly used with iterator methods like each, map, select, etc. to perform operations on collections.
 
 Procs:
 
